@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab-1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="gradient-background">
+<header>
+    <div>
+        <h1>Menu</h1>
+    </div>
+</header>
+<nav>
+    <aside class="sidebar col-lg-4 col-sm-12">
+        <div class="task-board">
+            <h2>Task`s board</h2>
+            <div class="items-block">
+                <div class="btn">
+                    <a href="float.html">Go to Float</a>
+                </div>
+                <div class="btn">
+                    <a href="flex.html">Go to CSS Flex</a>
+                </div>
+                <div class="btn">
+                    <a href="grid.html">Go to CSS Grid</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <div class="chill-board col-lg-7 col-sm-12">  
+        <div class="chill-board-name">
+            <h2>Chill board</h2>
+        </div>
+            <div class="picture">
+                <img src="Johnny_Silverhand.png"  alt="Johnny_Silverhand" title="Johnny_Silverhand">
+            </div>
+
+            <div class="music">
+                <audio id="Johny" controls autoplay loop>
+                    <source  src="CyberPunk.mp3" type="">
+                </audio>
+            </div>
+    </div>  
+</nav>
+<footer>
+    <h3>Made by Ivan_Semianyk :]</h3>
+</footer>
+
+<script>
+    'use strict'
+    let vid = document.getElementById("Johny");
+    vid.volume = 0.1; 
+</script>
+</body>
+</html>

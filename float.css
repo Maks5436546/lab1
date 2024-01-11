@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: xxx-large;
+}
+    .main-content{
+        width: 100%;
+        height: 50%;
+    }
+    
+    /*Desktop*/
+@media (min-width: 993px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, 
+    .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12
+    {
+        padding: 5% 2.5% 0% 2.5%;
+        float: left;
+    }
+    .col-lg-1{
+        width: 8.33%;
+    }
+    .col-lg-2{
+        width: 16.66%;
+    }
+    .col-lg-3{
+        width: 25%
+    }
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-7{
+        width: 58.33%;
+    }
+    .col-lg-8{
+        width: 66.66%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-10{
+        width: 83.33;
+    }
+    .col-lg-11{
+        width: 91.66%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+    .col-style
+    {
+        background-color: aquamarine;
+        border: 1px solid black;
+        width: 85%;
+
+        /*we can use "margin"*/
+        margin: 0% 7.5%;
+        
+        /* or we can use*/
+        /* 
+            position: relative;
+            left: 10%;
+            right: 10%; 
+        */
+    }
+}
+    /*Tablet*/
+@media (min-width: 769px) and (max-width: 992px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, 
+    .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12
+    {
+        float: left;
+        padding: 5% 2.5% 0% 2.5%;
+    }
+    .col-md-1{
+        width: 8.33%;
+    }
+    .col-md-2{
+        width: 16.66%;
+    }
+    .col-md-3{
+        width: 25%
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-5{
+        width: 41.66%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: 58.33%;
+    }
+    .col-md-8{
+        width: 66.66%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-10{
+        width: 83.33;
+    }
+    .col-md-11{
+        width: 91.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+    .col-style
+    {
+        background-color: aquamarine;
+        border: 1px solid black;
+    }
+}
+/*Mobile*/
+@media (max-width: 768px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, 
+    .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12
+    {
+        padding: 5% 2.5% 0 2.5%;
+        float: left;
+    }
+    .col-sm-1{
+        width: 8.33%;
+    }
+    .col-sm-2{
+        width: 16.66%;
+    }
+    .col-sm-3{
+        width: 25%
+    }
+    .col-sm-4{
+        width: 33.33%;
+    }
+    .col-sm-5{
+        width: 41.66%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-7{
+        width: 58.33%;
+    }
+    .col-sm-8{
+        width: 66.66%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-10{
+        width: 83.33;
+    }
+    .col-sm-11{
+        width: 91.66%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+    .col-style
+    {
+        background-color: aquamarine;
+        border: 1px solid black;
+        width: 80%;
+
+        /*we can use "margin"*/
+        margin: 0% 10%;
+        
+        /* or we can use*/
+        /* 
+            position: relative;
+            left: 10%;
+            right: 10%; 
+        */
+    }
+}
+h2{
+    background-color: aqua;
+    border: 1px solid black;
+    border-top: 0;
+    border-right: 0;
+    float: right;
+    margin: 0;
+}
+p{
+   padding: 7.5%;
+}
+button{
+    height: 50px;
+    width: 100px;
+}
+
+/*This piece of code does not belong in the lab */
+footer {
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 15%;
+    max-height: 30%;
+    display: grid;
+    align-items: center;
+}
+.conteiner{
+    width: 100%;
+    height: 80%;
+    display: grid;
+    gap: 3%;
+    grid-template-columns: 31% 31% 31%;
+    justify-items: center;
+    align-items: center;
+    padding: 3%;
+}
+.conteiner-item{
+    background-color: blueviolet;
+    width: 100%;
+}
+.footer-item{
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 40px;
+    text-align: center;
+}
